@@ -2,7 +2,6 @@
 const buttonStart = document.querySelector('button[data-start]');
 const buttonStop = document.querySelector('button[data-stop]');
 const body = document.querySelector('body');
-console.log(body);
 buttonStart.addEventListener('click', startChange);
 buttonStop.addEventListener('click', stopChange);
 let timeChangeColor = null;
