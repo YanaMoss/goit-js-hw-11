@@ -81,4 +81,6 @@ function convertMs(ms) {
     seconds = Math.floor((((ms % day) % hour) % minute) / second);
 
     return { days, hours, minutes, seconds };
-    };
+};
+    
+module.exports.convertMs = convertMs;
